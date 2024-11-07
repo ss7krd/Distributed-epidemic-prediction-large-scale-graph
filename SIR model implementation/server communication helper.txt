@@ -1,0 +1,8 @@
+FH SV 02 01
+(worker to central-fetch from server 02 to 01)
+SENDD SV 01
+(central to worker-send your information to server 01)
+REPL 222 01
+(worker to central-reply to server 01 my information: 222)
+REPL IS 222
+(central to worker-reply for the information is 222 that you asked for)
